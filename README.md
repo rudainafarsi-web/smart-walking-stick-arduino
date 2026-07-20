@@ -34,3 +34,21 @@ Obstacle
 → LED Indicator
 → DFPlayer Mini
 → Audio Warning
+
+## Available Files
+
+- `prototype_single_sensor.ino` — An early Arduino prototype demonstrating one ultrasonic sensor with LED and buzzer distance alerts.
+- `images/system-wiring-overview.png` — Overall wiring layout for the documented three-sensor system with Arduino Uno, DFPlayer Mini, speaker, and 9V battery.
+- `images/wiring-diagram-fritzing.png` — Detailed Fritzing schematic of the system wiring.
+
+> **Note:** The available Arduino sketch documents an initial single-sensor prototype. The final hardware design shown in the wiring diagrams includes three ultrasonic sensors and direction-based audio through a DFPlayer Mini. The final integrated source code is not currently available in this repository.
+
+## Circuit Diagrams
+
+### Overall System Wiring
+
+![Overall wiring layout for the Smart Walking Stick](images/system-wiring-overview.png)
+
+### Detailed Fritzing Schematic
+
+![Detailed Fritzing schematic for the Smart Walking Stick](images/wiring-diagram-fritzing.png)
